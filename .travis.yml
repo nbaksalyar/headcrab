@@ -1,0 +1,7 @@
+language: rust
+rust:
+  - stable
+script:
+  - make -C tests
+  - cargo test
+cache: cargo
